@@ -1,0 +1,71 @@
+body {
+    font-family: sans-serif;
+    width: 70%;
+    margin: 0 auto;
+    background-color: yellow;
+  }
+  
+  header {
+    background-color: yew;
+    color: black;
+    padding: 20px;
+  }
+  
+  main {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  section.filmes {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    padding: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  img {
+    width: 200px;
+    height: auto;
+  }
+  
+  section.categorias {
+    background-color: #eee;
+  }
+  
+  section.minha-lista {
+    background-color: #ccc;
+  }
+  
+  footer {
+    background-color: yellow;
+    padding: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .filmes {
+      flex-direction: column;
+    }
+  
+    .filmes > li {
+      width: 100%;
+    }
+  }
+  
